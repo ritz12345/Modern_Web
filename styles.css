@@ -1,0 +1,68 @@
+header{
+}
+body{
+
+}
+
+h1{
+	color:white;
+	font-size: 92px;
+ 	text-align: center;
+	font-family: "Roboto-Thin";
+	padding: 200px
+}
+
+article{
+	margin: 10px;
+}
+section main {
+	background-image:url("../hero.jpg");
+	height: 640px;
+}
+section main p{
+	text-align: center;
+}
+ul{
+	list-style-type:none;
+	float: right;
+}
+.meet{
+	float:left;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.meet img{
+	border-radius: 150px;
+}
+
+li[class*="cgoal"]{
+    width: 30%; 
+	background-color: white;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.nav{
+	padding: 28px;
+	float: right;	
+	font-family: 'Roboto-Medium', sans-serif;
+	font-size: 18px;
+	color:white;
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+
+
+section h2{
+	text-align: center;
+}
+
