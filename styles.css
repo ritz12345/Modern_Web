@@ -1,9 +1,11 @@
-header{
-}
+
 body{
 
 }
-
+.logo{
+	padding-left: 34px;
+	padding-top: 18px;
+}
 h1{
 	color:white;
 	font-size: 92px;
@@ -11,13 +13,17 @@ h1{
 	font-family: "Roboto-Thin";
 	padding: 200px
 }
+.starting{
+	color: white;
 
+}
 article{
 	margin: 10px;
 }
-section main {
+.headerwrap {
 	background-image:url("../hero.jpg");
-	height: 640px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section main p{
 	text-align: center;
@@ -54,6 +60,7 @@ li[class*="cgoal"]{
 	font-family: 'Roboto-Medium', sans-serif;
 	font-size: 18px;
 	color:white;
+
 }
 
 .nav a{
